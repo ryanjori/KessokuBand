@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Serrat";
+    src: url(MontserratBold-p781R.otf);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.sidenav {
+    height: 100%; 
+    width: 13%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #020202 ; 
+    overflow-x: hidden; 
+    padding-top: 20%;
+}
+#sidelogo{
+    width: 30%;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidenav a {
+    font-family: "Serrat", sans-serif ;
+    color: #505050;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    transition: 0.3s;
+    cursor: default;   
+}
+.sidenav a:hover{
+    color:#E0DFD5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}  
+main {
+    margin-left: 13%; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    scroll-behavior: smooth;
+}
+#container{
+    scroll-behavior: smooth;
+}
+#banner{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.294), rgba(0, 0, 0, 1)),
+    url('Banner.jpg');
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: black;
+}
+#logo {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    padding-top: 3%;
+    width: 65%
+}
+#space{
+    padding-bottom: 14%;
+    background-color: black;
+}
+.about{
+    padding-top: 5%;
+    padding-left: 50px;
+    background-color: black;
+
+}
+.about p{
+    max-width: 50%;
+    font-size: 40px;
+    display:inline-block;
+}
+#animelogo{
+    display: inline-block;
+}
+h1 {
+    padding-top: 10%;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    background: black;
+    display: block;
+    font-family: "Serrat", sans-serif;
+    text-align: left;
+    color: #E0DFD5;
+    font-size: 40px;
+}
+.about p {
+    color: #E0DFD5;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family: "Serrat", sans-serif;
+    font-size: 20px;
+    justify-content: end;
+}
+.members{
+    background-color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    background-color: black;
+    padding: 40px;
+}
+.ppic{
+    max-width: fit-content;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right:20px;
+    margin: 20px;
+    background-image:linear-gradient(to bottom right , rgb(65, 65, 65) , rgb(63, 52, 61));
+    border-radius: 40px;
+    transition: 0.3s;
+    transform:scale(0.97)
+}
+.ppic > img {
+    border-radius: 20px;
+    align-self: start;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000); 
+}
+.ppic > h2 {
+    color:#E0DFD5;
+    text-align: center;
+    font-family: "Serrat", sans-serif;
+    padding-top: 10%;
+}
+.ppic > h3 {
+    color:#e0dfd5a8;
+    text-align: center;
+    font-family: "Serrat", sans-serif;
+    padding-top: 10%;
+}
+.members .ppic:hover{
+    size : 80%;
+    margin-left: 60px;
+    margin-right: 60px;
+    transform:scale(1.1);
+}
+.songlist{
+    background-color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    background-color: black;
+    padding: 40px;
+}
+.song{
+    max-width: fit-content;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right:20px;
+    margin: 20px;
+    background-image:linear-gradient(to bottom right , rgb(65, 65, 65) , rgb(63, 52, 61));
+    border-radius: 40px;
+    transition: 0.3s;
+    transform:scale(0.97)
+}
+.song > img {
+    border-radius: 20px;
+    align-self: start;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000); 
+}
+.song > h2 {
+    color:#E0DFD5;
+    text-align: center;
+    font-family: "Serrat", sans-serif;
+    padding-top: 10%;
+}
+.songlist .song:hover{
+    size : 80%;
+    margin-left: 60px;
+    margin-right: 60px;
+    transform:scale(1);
+}

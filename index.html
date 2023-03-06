@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <title>Kessoku Band</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+
+  
+  <body>
+
+    <!-- SideBar items-->
+    <div class="sidenav">
+        <img src="Kessoku_Band_Logo.png" id="sidelogo">
+        <a id="band">About</a>
+        <a id="members">Members</a>
+        <a id="songs">Songs</a>
+    </div>
+
+    <!--Content-->
+    <main>
+      <scroll-container id="container">
+        <!--Banner division with logo-->
+        <div id="banner">
+          <img src="Kessoku_Band_Logo.png" id="logo">
+        </div>
+
+        <div id="space"></div>
+
+        <!--Band Story-->
+        <h1 id="band">Kessoku Band</h1>
+        <div class="about">
+            <p>Kessoku Band (結束バンド Kessoku Bando) is the main unit band of Bocchi the Rock! series. The name "Kessoku Band" is a pun on "Kessoku" (unity) and "Kessoku Band" (cable tie). The band has been drawn as the center of this work. The unit band is based on Shimokitazawa's live house STARRY, where Nijika's older sister, Seika, is a store manager. Ryo named the band after the meaning of "cable tie". Kita joined the band after it seems happy to do our best. Kessoku Band performed the first two songs at the live house for the audition. The band performed again at the live house for the first time with audiences. The band performed Shuka High School Cultural Festival.</p>
+            <img id="animelogo"src="Anime_logo.png">
+          </div>
+
+
+        <!--Band Members-->
+        <h1 id="members">Members</h1>
+        <div>
+          <div class="members">
+            <div id="bocchi" class="ppic"><img src="Members/Bocchi.png"><h2>Hitori Gotoh</h2><h3>Guitar</h3></div>
+            <div id="ryo" class="ppic"><img src="Members/Ryo.png"><h2>Ryo Yamada</h2><h3>Bass</h3></div>
+            <div id="nijiki" class="ppic"><img src="Members/Nijiki.png"><h2>Nijika Ijichi</h2><h3>Drums</h3></div>
+            <div id="ikuyo" class="ppic"><img src="Members/Ikuyo.png"><h2>Ikuyo Kita</h2><h3>Vocal, Guitar</h3></div>
+          </div>
+        </div>
+
+        <!--Songlist-->
+        <h1 id="songs">Songs <p style="font-size: 15px; color:rgb(75, 75, 75);">(some of them)</p></h1>
+        <div class="songs">    
+          <div class="songlist">
+            <div onclick="window.location='https://www.youtube.com/watch?v=q-bCp4MxuYU';" class="song"><img src="Songs/Bando.png" href="https://www.youtube.com/watch?v=q-bCp4MxuYU"><h2>That Band</h2></div>
+            <div onclick="window.location='https://www.youtube.com/watch?v=SDk1RA4g8CA';" class="song"><img src="Songs/Lonely.png"><h2 href="">Guitar, Loneliness and Blue Planet</h2></div>
+            <div onclick="window.location='https://www.youtube.com/watch?v=5RSHNMkKGLs';" class="song"><img src="Songs/Distortion.png"><h2 href="">Distortion!!</h2></div>
+            <div onclick="window.location='https://www.youtube.com/watch?v=8Selo-P1Ovc';" class="song"><img src="Songs/DontKnow.png"><h2 href="">Never Forget</h2></div>
+            <div onclick="window.location='https://www.youtube.com/watch?v=IwHwv-lcxi4';" class="song"><img src="Songs/Endin.png"><h2 href="">KaraKara</h2></div>
+            <div onclick="window.location='https://www.youtube.com/watch?v=BVvcQ4ge8Ow';" class="song"><img src="Songs/Endin2.png"><h2 href="">Whats is wrong with</h2></div>
+            <div onclick="window.location='https://www.youtube.com/watch?v=vW9d8-8gm7o';" class="song"><img src="Songs/EString.png"><h2 href="">If I could be a constellation</h2></div>
+          </div>
+        </div>
+        <script src="script.js"></script>
+      </scroll-container>
+    </main>
+  </body>
+</html>
