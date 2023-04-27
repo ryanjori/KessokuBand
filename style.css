@@ -12,9 +12,9 @@
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #020202 ; 
+    background-color: #0c0c0c ; 
     overflow-x: hidden; 
-    padding-top: 20%;
+    padding-top: 15%;
 }
 #sidelogo{
     width: 30%;
@@ -153,6 +153,7 @@ h1 {
     overflow-x: auto;
     background-color: black;
     padding: 40px;
+    padding-bottom: 10%;
 }
 .song{
     max-width: fit-content;
@@ -164,7 +165,7 @@ h1 {
     background-image:linear-gradient(to bottom right , rgb(65, 65, 65) , rgb(63, 52, 61));
     border-radius: 40px;
     transition: 0.3s;
-    transform:scale(0.97)
+    transform:scale(0.97);
 }
 .song > img {
     border-radius: 20px;
@@ -183,4 +184,103 @@ h1 {
     margin-left: 60px;
     margin-right: 60px;
     transform:scale(1);
+}
+
+footer {
+    background-color: rgb(17, 17, 17);
+    font-family: "Serrat", sans-serif;
+    color: #E0DFD5;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer > section {
+    align-items: end;
+}
+
+footer > p {
+    font-size: 30px;
+    display: inline-block;
+}
+
+#twitter{
+    width: 4%;
+    padding-right: 20px;
+}
+
+#spotfy{
+    width: 10%;
+}
+
+@media (max-width: 1200px){  
+    .sidenav {
+        height: fit-content; 
+        width: fit-content; 
+        position: relative;
+        background-color: #020202 ; 
+        padding: 5%;
+        display: flex;
+        align-items: center;
+    }
+    .sidenav a {
+        font-family: "Serrat", sans-serif ;
+        color: #505050;
+        justify-content: space-between;
+        font-size: 45px;
+        text-decoration: none;
+        transition: 0.3s;
+        cursor: default;
+        padding:0 8% 0 0;
+        width: 100%;
+    }
+    #sidelogo{
+        width: 15%;
+        margin: 0 100px 0 0;
+    }
+    main {
+        margin: 0;
+        font-size: 28px;
+        scroll-behavior: smooth;
+        width: 100%;
+    }
+    #band{
+        text-align: center;
+    }
+    .about {
+        max-width: 100%;
+        font-size: 20px;
+        display:flex;
+        flex-direction: column-reverse;
+        padding-bottom: 10%;
+    }  
+    .about p{
+        max-width: 100%;
+        font-size: 20px;
+        display:inline-block;
+        padding-bottom: 10%;
+    } 
+    #container{
+        scroll-behavior: smooth;
+        width: 100%;
+    }
+    #logo {
+        padding-top: 40%;
+    }
+    #space{
+        padding-bottom: 5%;
+    }
+    #animelogo {
+        padding: 10%;
+    }
+    footer {
+        padding: 8%;
+    }
+    #twitter{
+        width: 10%;
+    } 
+    #spotfy{
+        width: 22%;
+    }  
 }
